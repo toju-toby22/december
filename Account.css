@@ -1,0 +1,282 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.nav-bar{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    background-color: ghostwhite;
+}
+.help img{
+    height: 10px;
+    margin-left:  30px;
+}
+.help2{
+    margin-right: 20px;
+    text-align: center;
+    font-size: 13px;
+    
+}
+.help{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 20px;
+}
+
+.items{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    
+}
+
+.items a{
+    text-decoration: none;
+    color: black;
+    font-family: 'Roboto',   sans-serif;
+    margin-right: 30px;
+    font-size: 15px;
+}
+
+.items3{
+    margin-right: 5px;
+}
+
+.icon-logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.fill-form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Roboto',   sans-serif;
+    
+}
+
+.form{
+    padding: 30px;
+}
+.form p{
+    margin-top: 10px;
+}
+.input-box{
+    height: 40px;
+    width: 500px;
+    margin-top: 10px;
+    border: 1px solid gainsboro;
+}
+.button2{
+    width: 500px;
+    height: 40px;
+    margin-top: 10px;
+    background-color: rgb(168, 25, 6);
+    border: none;
+    color: white;
+}
+
+.btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ 
+}
+
+
+
+
+
+
+
+
+
+.container{
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: center;
+    align-items: center;
+    margin-top: 60px;
+}
+.mahabis{
+    text-align: center;
+    font-family: 'Roboto',   sans-serif;
+
+}
+.pre-logos{
+    display: flex;
+    margin-top: 10px;
+    /* margin-left: 60px ; */
+}
+
+.pre-logos2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.sub-logos img{
+    height: 30px;
+    margin: 10px;
+    margin-top: 10px;
+}
+
+.reviews{
+    margin-left: 20px;
+    font-family: 'Roboto',   sans-serif;
+}
+.trust{
+    height: 30px;
+}
+
+
+
+
+.last-row{
+    width: 90%;
+    margin: auto;
+    gap: 10px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    margin-top: 20px;
+}
+
+.last-row2{
+    width: 100%;
+}
+.last-row2 img{
+    height: 300px;
+    width: 100%;
+    object-fit: cover;
+}
+
+.circle{
+    position: relative;
+    color: black;
+}
+
+
+
+
+
+.sect1{
+    padding: 30px;
+}
+.last-div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.socials{
+    height: 30px;
+    margin-left: 20px;
+    margin-top: 20px;
+    object-fit: cover;
+}
+
+.last{
+    display: flex;
+    justify-content: center;
+    /* width: 80%; */
+    margin-top: 20px;
+    padding: 20px;
+}
+
+.promo{
+    font-weight: lighter;
+    font-size: small;
+    margin-top: 20px;
+    /* font-size: 20px; */
+    font-family: 'Roboto',   sans-serif;
+    text-align: left;
+}
+
+.span{
+    margin-top: 20px;
+    font-size: 20px;
+    font-family: 'Roboto',   sans-serif;
+    text-align: left;
+}
+
+.email-2{
+    height: 50px;
+    width: 200px;
+    border: 1px solid rgb(167, 167, 167);
+    padding: 10px;
+    margin-top: 20px;
+    border-radius: 5px;
+}
+
+.button{
+    height: 50px;
+    width: 150px;
+    background-color: black;
+    color: white;
+    font-family: 'Roboto',   sans-serif;
+    border: none;
+    border-radius: 5px;
+    margin-right: 30px;
+}
+
+.sect2{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    /* padding:  0 70px; */
+    
+}
+
+.list{
+    list-style: none;
+    margin-left: 20px;
+    /* padding: 20px; */
+    font-family: 'Roboto',   sans-serif;
+}
+
+.list a{
+    text-decoration: none;
+    color: black;
+    /* margin: 20px; */
+
+}
+
+.links{
+    margin-top: 20px;
+}
+
+.copy{
+    text-align: center;
+    width: 50%;
+    font-size: small;
+    margin-top: 20px;
+    color: gainsboro;
+}
+.copy-right{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Roboto',   sans-serif;
+}
+
+.flags{
+    height: 20px;
+}
+
+.pay-pal{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.payments{
+    height: 50px;
+    margin-left: 20px;
+}

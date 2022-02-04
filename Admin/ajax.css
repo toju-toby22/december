@@ -1,0 +1,155 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.products-container{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 20px;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.product{
+    width: 100%;
+}
+
+.product img{
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.product h3{
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+.product p{
+    margin-bottom: 5px;
+    padding: 5px;
+}
+
+.product div{
+    margin-bottom: 10px;
+    height: 50px;
+}
+
+
+.product div a{
+    text-decoration: none;
+    background-color: rgb(12, 12, 92);
+    color: white;
+    height: 50px;
+    border: none;
+    padding: auto;
+}
+
+
+.products-wrapper2,
+.section-grid{
+    width: 80%;
+    margin:  auto;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 30px;
+    margin-top: 50px;
+}
+
+.line-1{
+    margin: auto;
+    width: 100%;
+    overflow: hidden;
+
+}
+
+.line-1{
+    margin: auto;
+    width: 100%;
+    overflow: hidden;
+
+}
+/* .images{
+    transition: all 0.5s;
+    animation-timing-function: ease-in;
+} */
+.text1{
+    background-color: rgb(241, 241, 241);
+    text-align: center;
+    padding: 20px;
+    /* height: 70px;   */
+    
+}
+.alto{
+    align-items: center;
+    justify-content: center;
+    border: 1px solid black;
+    width: 100%;
+    font-family:  'Roboto',   sans-serif;
+    font-size: medium;
+    height: 100%;
+    padding: 20px;
+}
+.images{
+    height: 350px;
+    width: 100%;
+    object-fit: cover;  
+    transition: transform all 1.5s;
+}
+
+
+
+
+
+.images1{
+    background-image: url('./11.jpg');
+    background-position: center;
+    background-size: cover;
+    height: 350px;
+    width: 100%;
+    transition: transform all 1.5s;
+    animation-timing-function: ease-in;
+}
+
+.line-1:hover .images1{
+    transform: scale(1.3);
+}
+
+
+
+
+
+
+
+.column{
+    /* width: 70%; */
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minMax(200px, 1fr));
+    gap: 10px;
+    margin-top: 20px;
+    /* padding: 60px; */
+}
+
+.row-1{
+    width: 100%;
+}
+
+.col-img{
+    width: 100%;
+    height: 250px;
+    object-fit: contain;
+}
+
+.text-1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
